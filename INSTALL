@@ -1,9 +1,9 @@
-Building FooCoin
+Building BSACoin
 
-See doc/readme-qt.rst for instructions on building foocoin-qt,
+See doc/readme-qt.rst for instructions on building bsacoin-qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of FooCoin.
+implementation of BSACoin.
 
-See doc/build-*.txt for instructions on building foocoin,
+See doc/build-*.txt for instructions on building bsacoin,
 the intended-for-services, no-graphical-interface, reference
-implementation of FooCoin.
+implementation of BSACoin.
