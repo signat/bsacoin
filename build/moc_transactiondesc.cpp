@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'transactiondesc.h'
 **
-** Created: Thu Mar 13 10:20:26 2014
+** Created: Thu Mar 13 11:20:29 2014
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.6.3)
 **
 ** WARNING! All changes made in this file will be lost!
