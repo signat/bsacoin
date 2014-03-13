@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'transactiondescdialog.ui'
 **
-** Created: Tue Mar 11 16:30:12 2014
+** Created: Thu Mar 13 09:42:24 2014
 **      by: Qt User Interface Compiler version 4.6.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
