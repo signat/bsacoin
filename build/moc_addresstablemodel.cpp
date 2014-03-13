@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'addresstablemodel.h'
 **
-** Created: Thu Mar 13 09:49:28 2014
+** Created: Thu Mar 13 10:03:03 2014
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.6.3)
 **
 ** WARNING! All changes made in this file will be lost!

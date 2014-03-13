@@ -15,7 +15,7 @@ CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)
 CXXFLAGS      = -pipe -fstack-protector -O2 -fdiagnostics-show-option -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -D_REENTRANT $(DEFINES)
 INCPATH       = -I/usr/share/qt4/mkspecs/linux-g++ -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -Isrc -Isrc/json -Isrc/qt -Ibuild -Ibuild
 LINK          = g++
-LFLAGS        = -Wl,-rpath,$$ORIGIN/lib/:$$ORIGIN/../lib/ -fstack-protector -Wl,-O1
+LFLAGS        = -Wl,-rpath=$$ORIGIN/lib/:$$ORIGIN/../lib/ -fstack-protector -Wl,-O1
 LIBS          = $(SUBLIBS)  -L/usr/lib -lrt -lssl -lcrypto -ldb_cxx -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lQtGui -lQtCore -lpthread 
 AR            = ar cqs
 RANLIB        = 
