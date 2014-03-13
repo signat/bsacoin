@@ -16,7 +16,7 @@ CXXFLAGS      = -pipe -fstack-protector -O2 -fdiagnostics-show-option -Wall -Wex
 INCPATH       = -I/usr/share/qt4/mkspecs/linux-g++ -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -Isrc -Isrc/json -Isrc/qt -Ibuild -Ibuild
 LINK          = g++
 LFLAGS        = -Wl,-rpath=$$ORIGIN/lib/:$$ORIGIN/../lib/ -fstack-protector -Wl,-O1
-LIBS          = $(SUBLIBS)  -L/usr/lib -lrt -lssl -lcrypto -ldb_cxx -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lQtGui -lQtCore -lpthread 
+LIBS          = $(SUBLIBS)  -L$$ORIGIN/lib -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lssl -L/usr/lib -lrt -lcrypto -ldb_cxx -lQtGui -lQtCore -lpthread 
 AR            = ar cqs
 RANLIB        = 
 QMAKE         = /usr/bin/qmake
